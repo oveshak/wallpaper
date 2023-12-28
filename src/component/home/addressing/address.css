@@ -25,7 +25,7 @@
     margin-bottom: 10px 
 }
 .address .row .left .box .header-box h3{
-    font-size: 26px ;
+    font-size: 20px ;
     font-weight: bold;
     color:RGB(255, 102, 155) ;
 }
@@ -36,7 +36,7 @@
 }
 .address .row .left .box .header-box p{
     margin-top: 15px ;
-    font-size: 26px;
+    font-size: 20px;
 }
 .address .row .left .box .sub-box .sup-box h4{
    color: #ff6d9f;
@@ -44,7 +44,7 @@
    margin-bottom: 10px;
 }
 .address .row .left .box .sub-box p{
-    font-size: 30px;
+    font-size: 23px;
     margin-left: 0 50px;
 } 
 

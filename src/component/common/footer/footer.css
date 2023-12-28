@@ -44,10 +44,11 @@ footer .row .left .menu li{
     text-decoration: none;
     list-style: none;
     margin: 30px 0;
-    font-size: 24px;
+    font-size: 20px;
     color: #fff;
     margin-right: 20px;
     cursor: pointer;
+    font-weight: bold;
 }
 footer .row .left .menu li:hover{
     color: #0984e3;
@@ -62,7 +63,7 @@ footer .row .right{
     margin: 50px 0;
 }
 footer .row .right h1{
-    font-size: 46px;
+    font-size: 35px;
     color: #ff669b;
     border: 5px dashed #0984e3;
     padding: 10px;
@@ -73,7 +74,7 @@ footer .row .right h1{
 footer .row .right p{
     margin-top: 15px;
     color: #fff;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 footer .legal{
@@ -99,6 +100,11 @@ footer .legal .right{
 footer .legal .right p{
     font-size: 22px;
     color: gray;
+    text-align: center;
+}
+footer .legal .right p a{
+    font-size: 22px;
+    color: #ff669b;
     text-align: center;
 }
 

@@ -35,10 +35,11 @@
 }
 .asking .row .left .title .item h2{
     color: #fff;
+    font-size: 20px;
 }
 .asking .row .left .title .item span{
     color: #fff;
-    font-size: 30px;
+    font-size: 25px;
 }
 .asking .content{
     max-height: 0;
@@ -60,7 +61,8 @@
     font-size: 23px;
 } 
 .asking .content.show div p{
-    padding-bottom: 20px;
+    
+    font-size: 17px;
 }
 .asking .content.show .button{
     background-color: green;
@@ -85,12 +87,16 @@
     }
     .asking .row .left .title .item h2{
         color: #fff;
-        font-size: 16px;
+        font-size: 13px;
     }
     .asking .headingss h1 {
         font-size: 32.796px;
     }
     .asking .headingss p{
+        font-size: 14px;
+    }
+    .asking .content.show div p{
+    
         font-size: 14px;
     }
 }

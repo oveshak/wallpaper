@@ -38,7 +38,7 @@ export const Footer = () => {
                         <p>© 2023 RS 3d Wallpaper And Floor. All rights reserved.</p>
                     </div>
                     <div className='right'>
-                        <p>Developed by oveshak</p>
+                        <p>Developed by <a href='https://github.com/oveshak'>oveshak</a></p>
                     </div>
                 </div>
             </div>
