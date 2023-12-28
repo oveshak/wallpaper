@@ -1,0 +1,132 @@
+footer{
+    background-color: #08294d;
+}
+footer .row{
+  display: flex;
+  
+}
+footer .row .left{
+    width: 50%;
+    text-align: center;
+    margin: 50px 0;
+}
+footer .row .left .icon .icon1{
+    background: #0984e3;
+    width: 60px;
+    height: 60px;
+    color: white;
+    padding: 7px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 1px #085392;
+    transition: 0.3s;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 20px;
+}
+footer .row .left .icon .icon1:nth-child(1):hover{
+    background-color: #fff;
+    color: #0984e3;
+  }
+  footer .row .left .icon .icon1:nth-child(2):hover{
+    background-color: #fff;
+    color: red;
+  }
+  footer .row .left .icon .icon1:nth-child(3):hover{
+    background-color: #fff;
+    color: green;
+  }
+footer .row .left .menu{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+footer .row .left .menu li{
+    text-decoration: none;
+    list-style: none;
+    margin: 30px 0;
+    font-size: 24px;
+    color: #fff;
+    margin-right: 20px;
+    cursor: pointer;
+}
+footer .row .left .menu li:hover{
+    color: #0984e3;
+}
+
+
+
+
+footer .row .right{
+    width: 50%;
+    text-align: center;
+    margin: 50px 0;
+}
+footer .row .right h1{
+    font-size: 46px;
+    color: #ff669b;
+    border: 5px dashed #0984e3;
+    padding: 10px;
+    width: min-content !important;
+    
+    margin: auto;
+}
+footer .row .right p{
+    margin-top: 15px;
+    color: #fff;
+    font-size: 30px;
+}
+
+footer .legal{
+    background-color: #fff;
+    padding: 20px 0;
+}
+footer .legal .row1{
+    display: flex;
+    justify-content: center;
+}
+footer .legal .left{
+    width: 50%;
+    margin: auto;
+}
+footer .legal .left p{
+    font-size: 22px;
+    color: gray;
+    text-align: center;
+}
+footer .legal .right{
+    width: 50%;
+}
+footer .legal .right p{
+    font-size: 22px;
+    color: gray;
+    text-align: center;
+}
+
+@media only screen and (max-width:790px) {
+    footer .row{
+        flex-direction: column;
+      }
+    footer .row .left{
+        width: 100%;
+    }
+    footer .row .left .menu{
+        flex-direction: column;
+    }
+    footer .row .right{
+        width: 100%;
+    }
+    footer .legal .left{
+        width: 100%;
+       
+    }
+    footer .legal .left p{
+        font-size: 15px;
+    }
+    footer .legal .right{
+        width: 100%;
+    }
+    footer .legal .row1{
+        flex-direction: column;
+        gap: 10px;
+    }
+}

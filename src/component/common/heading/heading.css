@@ -1,0 +1,92 @@
+.close{
+    display: none;
+  }
+  .heading{
+    background-color: #08294d;
+    height: 8vh;
+   
+  }
+  .heading .icon{
+    margin-top: 15px;
+  }
+  .heading .icon .icon1{
+    background: #0984e3;
+    width: 30px;
+    height: 30px;
+    color: white;
+    padding: 7px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 1px #085392;
+    transition: 0.3s;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .heading .icon .icon1:nth-child(1):hover{
+    background-color: #fff;
+    color: #0984e3;
+  }
+  .heading .icon .icon1:nth-child(2):hover{
+    background-color: #fff;
+    color: red;
+  }
+  .heading .icon .icon1:nth-child(3):hover{
+    background-color: #fff;
+    color: green;
+  }
+  
+  .heading .details .number{
+    font-size: 20px;
+    margin-top: auto;
+    margin-top: 15px;
+  }
+  .heading .details .color1{
+    color: #0984e3;
+  }
+  .heading .details .color2{
+    color: #ff6687;
+  }
+  .heading .toggles{
+    display: flex;
+    justify-content: right;
+    margin-top: -42px;
+    margin-right: 15px;
+  }
+  .heading .toggles button{
+    padding: 8px 10px;
+    background-color: #fff;
+   
+    color: #ff6687;
+    
+  }
+
+  @media only screen and (max-width: 980px) {
+   .heading .flex{
+    flex-direction: column;
+   }
+   .heading{
+ 
+    height: 10vh;
+  }
+
+  .heading .icon {
+    margin-top: 8px;
+    margin-left: 18px;
+}
+.heading .details .number{
+    font-size: 16px;
+    margin-top: auto;
+    margin-top: 5px;
+  }
+  .heading .toggles{
+    
+    margin-top: -67px;
+    
+  }
+
+}
+@media only screen and (max-width:680px) {
+    .heading{
+        height: 12vh;
+    }
+}

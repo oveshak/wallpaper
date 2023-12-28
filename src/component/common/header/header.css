@@ -1,0 +1,164 @@
+header {
+    background-color: #fff;
+    height: 10vh;
+    box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+
+header img {
+    width: 100px;
+    cursor: pointer;
+}
+
+header a {
+    padding: 10px;
+    margin-left: 10px;
+    transition: 0.2s;
+    font-weight:bolder;
+    font-size: 20px;
+    --b: 0.1em;   /* the thickness of the line */
+    --c: #ff669b; /* the color */
+    
+    color: #0000;
+    padding-block: var(--b);
+    background: 
+      linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+      linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
+}
+  header a:hover {
+    --_p: 100%;
+    --_s: .3s;
+  }
+
+/* header :hover {
+    background: #0984e3;
+    border-radius: 2px;
+    text-decoration: none!important;
+    transition: .5s;
+} */
+
+
+
+/* header span {
+    width: 2px;
+    padding: 0px 6px;
+    background: #27ae60;
+    border-radius: 50%;
+    color: #ffffff;
+    margin-right: 4px;
+    font-weight: 400;
+}
+
+header h4 {
+    font-weight: 500;
+    margin-right: 20px;
+} */
+
+header .toggle {
+    display: none;
+}
+/* heading */
+
+
+@media only screen and (max-width: 1170px) {
+    header .button {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 980px) {
+    header {
+        padding: 10px 0;
+        height: -webkit-fill-available;
+    }
+    header .container{
+        max-width: 90%;
+    }
+
+    /* header img {
+        margin-top: 30px;
+    } */
+    header a{
+        margin-left: 0;
+    }
+
+    header .button {
+        display: none;
+    }
+
+    header .nav .flex {
+        display: none;
+    }
+
+    header .toggle {
+        display: block;
+        /* margin-top: 20px; */
+    }
+    header .toggle button{
+        background-color: transparent;
+        border: 4px solid #4d4a4a;
+        padding: 10px 15px;
+        border-radius: 10px;
+        font-size: 10px;
+    }
+
+    header .small {
+        position: absolute;
+        top: 10vh;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        padding: 20px;
+        transition: .6s;
+    }
+
+    header li a {
+        display: inline-block;
+        margin-bottom: 20px;
+        color: #ff669b;
+
+    }
+
+    header li a:hover {
+        color: yellow;
+    }
+}
+@media only screen and (max-width: 850px) {
+    header .small {
+     
+        top: 7vh;
+      
+    }}
+
+    @media only screen and (max-width: 414px) {
+        header .small {
+         
+            top: 7vh;
+          
+        }
+    }
+@media only screen and (max-width: 450px) {
+    header .small {
+     
+        top: 8vh;
+      
+    }
+
+    header img {
+        width: 80px;
+    }
+}
+@media only screen and (max-width: 380px) {
+    header .small {
+     
+        top: 9vh;
+      
+    }
+}

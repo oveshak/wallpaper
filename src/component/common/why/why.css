@@ -1,0 +1,50 @@
+.why .row{
+    display: flex;
+    margin: 70px 0;
+    gap: 20px;
+}
+.why .row .left{
+    width: 50%;
+}
+.why .row .left .box{
+   font-size: 25px ;
+   margin-bottom: 30px;
+}
+.why .row .left .box span{
+    color: #3e9ee9;
+    font-weight: bold;
+} 
+.why .row .right{
+    width: 50%;
+}
+.why .row .right iframe{
+    width: 100%;
+    height: 50vh;
+    border-radius: 10px;
+    border: none;
+}
+
+@media only screen and (max-width:780px) {
+    .why .row{
+        flex-direction: column;
+    }
+    .why .row .left{
+        width: 100%;
+    }
+    .why .row .right{
+        width: 100%;
+    }
+    .why .row .left .box {
+        font-size: 16px;
+        
+    }
+    .why .row .right iframe{
+        height: 30vh;
+    }
+    .why .headingss p {
+        font-size: 16px;
+    }
+    .why .headingss h1 {
+        font-size: 37.796px;
+    }
+}
