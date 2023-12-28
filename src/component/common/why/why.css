@@ -7,7 +7,7 @@
     width: 50%;
 }
 .why .row .left .box{
-   font-size: 25px ;
+   font-size: 20px ;
    margin-bottom: 30px;
 }
 .why .row .left .box span{
@@ -42,9 +42,9 @@
         height: 30vh;
     }
     .why .headingss p {
-        font-size: 16px;
+        font-size: 14px;
     }
     .why .headingss h1 {
-        font-size: 37.796px;
+        font-size: 32.796px;
     }
 }
