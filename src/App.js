@@ -4,7 +4,7 @@ import Page from "./component/page/Page";
 function App() {
   return (
     <>
-      <Page/> 
+      <Page/> //this is page component
     </>
   );
 }
