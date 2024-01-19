@@ -2,7 +2,7 @@ import React from "react";
 import "./design.css";
 import Headss from "../../common/headss/Headss";
 import { design } from "../../data/Data";
-
+import { Link } from "react-router-dom";
  
 const Design = () => {
   return (
@@ -17,7 +17,7 @@ const Design = () => {
             <div className="row">
               {design.map((item) => (
                 <div className= "box" >
-                  <a href='/design'><img src={item.icon} alt=""/></a>
+                  <Link to='/design'><img src={item.icon} alt=""/></Link>
                 </div>
               ))}
             </div>
